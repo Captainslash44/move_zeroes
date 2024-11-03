@@ -5,7 +5,7 @@ def Move_zeroes(numbers):
     for i in range(len(numbers)):
 
         if numbers[i] != 0:
-            # if the number is not zero, swap it with the element at count.
+            # if the number is not zero, swap it with the element at index.
             numbers[index], numbers[i] = numbers[i], numbers[index]
             index += 1
 
